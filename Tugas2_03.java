@@ -17,8 +17,8 @@ public class Tugas2_03 {
             for(int j = 1;j <= n ;j++){
 
                 int kali = i* j;
-                System.out.print(" ");
-                System.out.print(kali);
+                
+                System.out.printf("%4d",kali);
 
                 total += kali;
                 
